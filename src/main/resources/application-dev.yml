@@ -1,8 +1,2 @@
-app:
-  name: Tech Interface - Swagger and Profiles Tutorial
 server:
-  port: 8080
-
-
-spring:
-  profile-testing-key: techinterface - dev profile is set .
+  port: 8081

@@ -1,8 +1,4 @@
-app:
-  name: Tech Interface - Swagger and Profiles Tutorial
 server:
   port: 8080
 
 
-spring:
-  profile-testing-key: techinterface - no profiles set  .

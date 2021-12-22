@@ -5,6 +5,7 @@ import com.example.task_2021_12_2021_studentmanager.model.Student;
 import com.example.task_2021_12_2021_studentmanager.service.StudentService;
 import com.example.task_2021_12_2021_studentmanager.exception.StudentNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Profile;
 import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,6 +15,7 @@ import java.util.Optional;
 
 @SuppressWarnings("ALL")
 @RestController
+@Profile("prod")
 public class StudentController {
     @Autowired
     private StudentService studentService;
