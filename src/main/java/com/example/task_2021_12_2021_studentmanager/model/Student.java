@@ -16,7 +16,7 @@ import java.util.Date;
 @NoArgsConstructor
 @Entity
 @Table(name = "students_dd")
-public class Student {
+public class Student extends PostStudent<String>{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

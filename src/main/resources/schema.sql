@@ -3,7 +3,6 @@
 -- noinspection SqlNoDataSourceInspectionForFile
 
 DROP TABLE IF EXISTS students_dd;
-
 CREATE TABLE students_dd
 (
     id         INT AUTO_INCREMENT PRIMARY KEY,

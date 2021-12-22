@@ -15,7 +15,7 @@ import java.util.Optional;
 
 @SuppressWarnings("ALL")
 @RestController
-@Profile({"prod","dev"})
+//@Profile({"prod","dev"})
 public class StudentController {
     @Autowired
     private StudentService studentService;
